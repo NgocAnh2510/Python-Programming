@@ -26,11 +26,6 @@ def lg(n: int) -> int:
     return x - 1
 print(lg(20))
 
-#12. The following checksum formula is widely used by banks and credit card companies to validate legal account numbers:
-#d0 + f(d1) + d2 + f(d3) + d4 + f(d5) + d6 + ... = 0 (mod 10)
-# For example, 17327 is valid because 1 + 5 + 3 + 4 + 7 = 20, which is a multiple of 10.
-def checksum(n: int) -> int:
-    
 
 
 
